@@ -13,3 +13,8 @@ variable "email" {
     type        = string
     description = "email subscription topic sns"
 }
+
+variable "lambda" {
+    type        = string
+    description = "The ARN of the Lambda Function"
+}
